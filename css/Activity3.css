@@ -1,0 +1,66 @@
+.advertisement
+{
+	width:100px;
+	height:150px; 
+	border-color:black;
+	border-width:2px; 
+	background-color:gray; 
+	color:white;
+	position: absolute;
+	top: 30px;
+	left:30px;
+}
+.image img{
+	width:300px;
+	display:block;
+}
+
+.header
+{
+	position: relative;
+	top:30px;
+	text-align:left;
+	margin-left:200px;
+}
+
+.logo
+{
+	display:inline-block;
+}
+
+.logo img
+{
+	width: 300px;
+}
+
+.title
+{
+	display: inline-block;
+	position: absolute;
+	margin-left:20px;
+}
+.content
+{
+	width:70%;
+	position:relative;
+	margin:auto;
+	margin-top:150px;
+}
+.image
+{
+	float:left;
+	margin-right:10px;
+}
+
+.main
+{
+	font-size:large;
+}
+
+.head{
+	text-align:center;
+	position:relative;
+	margin:auto;
+	margin-top:50px;
+	font-size:large;
+}
