@@ -1,3 +1,5 @@
+
+/*Navbar Properties*/
 .navbar {
   background-color: #070617;
   backdrop-filter: blur(12px);
@@ -13,6 +15,8 @@
   transition: 350ms cubic-bezier(0.65, 0, 0.35, 1);
   margin-bottom:100px;
 }
+
+
 #brand
 {
   font-family: 'Courier New', Courier, monospace;
@@ -50,6 +54,9 @@
 {
   color:darkgrey;
 }
+/*Navbar Properties End*/
+
+/*Course Page Properties*/
 #coursesTitle
 {
   padding-top: 45px;
@@ -89,7 +96,9 @@
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 10px 0px,
     rgba(0, 0, 0, 0.5) 0px 2px 15px 0px;
 }
+/*End of Course Page Properties*/
 
+/*Footer Properties*/
 .footer {
   width: 100%;
   position: relative;
@@ -129,11 +138,19 @@
   clear: both;
 }
 
+
 .allRightReservedText
 {
   color:#ffffff;
   text-align:center;
 }
+
+/*End Of Footer Properties*/
+
+
+
+
+/*Contuct Us Form Properties*/
 .contact{
   display: block;
   margin: auto;
@@ -146,9 +163,6 @@
   box-shadow: 0 15px 25px rgba(0,0,0,.6);
   border-radius: 10px;
 }
-
-
-
 .contact h1{
   display: flex;
   margin: 4% auto;
@@ -200,7 +214,7 @@ textarea{
   background-color: #DBD6DF;
   font-family: sans-serif;
 }
-
+/*End Of Contuct Us Form*/
 
 #content
 {
@@ -215,6 +229,8 @@ textarea{
 }
 
 
+
+/*Home Page Properties*/
 #home {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../home.jpg);
 }
@@ -250,4 +266,4 @@ textarea{
 #about {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../company.jpg);
 }
-
+/*End Of Home Page Properties*/
