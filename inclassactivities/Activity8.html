@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="js/jquery-ui-1.13.2/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="../css/Activity8.css">
+    <script type="text/javascript" src = "js/jquery-ui-1.13.2/jquery-ui.js"></script>
+    <script type="text/javascript" src = "js/jquery-ui-1.13.2/external/jquery/jquery.js"></script>
+    <script type="text/javascript" src = "js/Activity8.js"></script>
+    <script type="text/javascript" src = "js/jQuery.js"> </script>
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="form">
+        <div class="title">
+            <p>Activity 8</p>
+        </div>
+        <form >
+            <div class="row">
+                <div class="col-25">
+                    <label  for="programmingLanguage">What Programming Language Do You Know?</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" name="" id="programmingLanguage"><br/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="birthday"> What is your birthday? </label>
+                </div>
+                <div class="col-75">
+                    <input onclick="$('birthday').datepicker();" type="text" name="" id="birthday"><br/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="emailAddress">Email Address</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" name="" id="emailAddress" placeholder="Enter a valid email address"><br/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="website">Website </label>
+                </div>
+                <div class="col-75">
+                    <input type="text" name="" id="website"><br/>
+                </div>
+            </div>
+            <div class="row">
+                <input type="button" value="submit">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
