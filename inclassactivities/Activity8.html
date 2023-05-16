@@ -23,7 +23,7 @@
                     <label  for="programmingLanguage">What Programming Language Do You Know?</label>
                 </div>
                 <div class="col-75">
-                    <input type="text" name="" id="programmingLanguage"><br/>
+                    <input type="text" name="" required id="programmingLanguage"><br/>
                 </div>
             </div>
             <div class="row">
@@ -31,7 +31,7 @@
                     <label for="birthday"> What is your birthday? </label>
                 </div>
                 <div class="col-75">
-                    <input  type="text" id="birthday"><br/>
+                    <input  type="text" required id="birthday"><br/>
                 </div>
             </div>
             <div class="row">
@@ -39,12 +39,12 @@
                     <label for="emailAddress">Email Address</label>
                 </div>
                 <div class="col-75">
-                    <input type="text" name="" id="emailAddress" placeholder="Enter a valid email address"><br/>
+                    <input type="text" name="" id="emailAddress" required placeholder="Enter a valid email address"><br/>
                 </div>
             </div>
             <div class="row">
                 <div class="col-25">
-                    <label for="website">Website </label>
+                    <label reqired for="website" pattern="https?://.+">Website </label>
                 </div>
                 <div class="col-75">
                     <input type="text" name="" id="website"><br/>
