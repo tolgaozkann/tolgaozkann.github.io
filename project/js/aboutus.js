@@ -63,3 +63,35 @@ $(document).ready(function () {
       closeOnSend: false
     });
   });
+
+
+  $(document).ready(function() {
+    // Click event handler for sidebar links
+    $("#nav_list li a").on("click", function(event) {
+      event.preventDefault();
+      
+      // Get the title from the clicked link
+      var title = $(this).attr("title");
+      
+      // Make an AJAX request to retrieve the aboutus.json file
+      $.ajax({
+        url: "/json/aboutus.json",
+        dataType: "json",
+        success: function(data) {
+          // Find the object in the aboutus array that matches the clicked link's title
+          var aboutItem = data.aboutus.find(function(item) {
+            return item.title === title;
+          });
+          
+          if (aboutItem) {
+            // Replace the content of the paragraph element with the data from the JSON file
+            $("#paragraph").html("<h2>" + aboutItem.title + "</h2><p>" + aboutItem.content + "</p>");
+          }
+        },
+        error: function() {
+          // Handle error if the aboutus.json file could not be retrieved
+          console.log("Error retrieving JSON data.");
+        }
+      });
+    });
+  });
