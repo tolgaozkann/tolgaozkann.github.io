@@ -75,7 +75,7 @@ $(document).ready(function () {
       
       // Make an AJAX request to retrieve the aboutus.json file
       $.ajax({
-        url: "/json/aboutus.json",
+        url: "json/aboutus.json",
         dataType: "json",
         success: function(data) {
           // Find the object in the aboutus array that matches the clicked link's title
