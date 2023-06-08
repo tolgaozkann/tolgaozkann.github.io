@@ -56,47 +56,7 @@
 }
 /*Navbar Properties End*/
 
-/*Course Page Properties*/
-#coursesTitle
-{
-  padding-top: 45px;
-  font-weight: bold;
-  font-size:xx-large;
-  text-align: center;
-  padding-bottom: 1rem;
-}
-.courses
-{
-  box-shadow: 0 0.1rem 0 0 rgba(0, 0, 0, 0.1);
-  margin: 0 auto;
-  display: grid;
-  max-width: 780px;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-auto-rows: 180px;
-  grid-gap: 20px;
-  padding-bottom: 70px;
-}
 
-.courses .course {
-  max-width: 180px;
-  height: 180px;
-  margin: 0 auto;
-  cursor: pointer;
-  filter: grayscale(40%);
-}
-.courses .course:hover {
-  filter: none;
-  transition: 0.3s ease-out;
-  transform: scale(1.06);
-}
-
-.courses img{
-  max-width: 180px;
-  height: 70%;
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 10px 0px,
-    rgba(0, 0, 0, 0.5) 0px 2px 15px 0px;
-}
-/*End of Course Page Properties*/
 
 /*Footer Properties*/
 .footer {
@@ -150,79 +110,12 @@
 
 
 
-/*Contuct Us Form Properties*/
-.contact{
-  display: block;
-  margin: auto;
-  width: 30%;
-  max-width: 30%;
-  min-width: 30%;
-  height: 80%;
-  border: solid 2px #120A19;
-  background-color:#070617;
-  box-shadow: 0 15px 25px rgba(0,0,0,.6);
-  border-radius: 10px;
-}
-.contact h1{
-  display: flex;
-  margin: 4% auto;
-  justify-content: center;
-  font-family: sans-serif;
-  font-size: 30px ;
-  color:white;
-}
-hr{
-  width: 60%;
-  border: 1px solid #120A19;
-}
-label{
-  display: block;
-  margin: auto;
-  padding: 1vh;
-
-}
-
-input[type="text"],input[type="email"], input[type="number"] {
-  display: block;
-  margin: 2% auto;
-  width: 85%;
-  height: 4vh;
-  max-height: 30px;
-  border-radius: 5px;
-  border: solid 2px #120A19;
-  background-color: #DBD6DF;
-}
-input[type="submit"]{
-  display:block;
-  margin: 4% auto;
-  width: 30%;
-  height: 4vh;
-  background-color: #120A19;
-  color: whitesmoke;
-  border-radius: 10px;
-  cursor: pointer;
-}
-
-textarea{
-  display: block;
-  margin: 2% auto 0;
-  width: 85%;
-  height: 22vh;
-  max-height: 165px;
-  border-radius: 5px;
-  border: solid 2px #120A19;
-  background-color: #DBD6DF;
-  font-family: sans-serif;
-}
-/*End Of Contuct Us Form*/
-
-
 
 
 
 /*Home Page Properties*/
 #home {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../home.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/home.jpg);
 }
 #home h1{
   color: #f1f1f1;
@@ -254,6 +147,6 @@ textarea{
 }
 
 #about {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../company.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/company.jpg);
 }
 /*End Of Home Page Properties*/
