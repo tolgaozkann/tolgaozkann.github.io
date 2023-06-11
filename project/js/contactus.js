@@ -46,7 +46,6 @@ $(document).ready(function () {
 
 
 //JQERY Contact Form Validation and response func
-
 $(document).ready(function () {
   $("#submit").click(function () {
 

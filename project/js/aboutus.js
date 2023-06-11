@@ -44,7 +44,7 @@ $(document).ready(function () {
   });
 });
 
-
+//request to the about us json file for about us info.
 $(document).ready(function () {
   // Click event handler for sidebar links
   $("#nav_list li a").on("click", function (event) {
@@ -76,7 +76,7 @@ $(document).ready(function () {
   });
 });
 
-
+//external request for the data source of carousel
 $(document).ready(function () {
   var url =
     "https://api.flickr.com/services/feeds/photos_public.gne?" +
